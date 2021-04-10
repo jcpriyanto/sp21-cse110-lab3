@@ -16,12 +16,12 @@ Question 7  Passcode: YouFoundMe
 
 Question 8 passcode: coolcoolcool
 
-<h2>Question 9 passcode: 2020sucked</h2>
+Question 9 passcode: 2020sucked
 
 Question 10 Passcode: listenToTheBlackKeys
 
-question 11 passcode: a11yComesFirst">
+question 11 passcode: a11yComesFirst
 
-question12passcode="iLoveWebDev"
+question12passcode=iLoveWebDev
 
 Question 13 passcode: 404
