@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100;500&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="j.png" sizes="any" type="image/png">
         <meta charset="UTF-8">
         <title>
@@ -8,15 +14,17 @@
         </title>
     </head>
     <header>
-        <h1>Joseph Christopher Priyanto's Journal</h1>
+        <h1 class="header">Joseph Christopher Priyanto's Journal</h1>
         <hr>
     </header>
     <main>
-        <h2>April 7th, 2021</h2>
+        
         <img src="./misc/profilepic.jpeg" alt="Profile picture" width="250" height="250">
-        <section>
+        Hover to enlarge my picture!
+        <section  class="apr7">
+            <h2>April 7th, 2021 - <em>Tasks</em> </h2>
             <h3>What I did,</h3>
-                I woke up at 3 pm in the afternoon because I slept at 5 am. Had breakfast, and immidiately started working on my assignments. Note to self: <b>Try not to procrastinate next time</b>
+                <p>I woke up at 3 pm in the afternoon because I slept at 5 am. Had breakfast, and immidiately started working on my assignments. Note to self: <b>Try not to procrastinate next time</b></p>
                 <br>Things that I need to complete today:
                 <ul>
                     <li>EDS 124 BR Week 2</li>
@@ -25,38 +33,38 @@
                 </ul>
 
                 Things are looking good so far.
-            <div>Quote of the day: <i><span style="color:blue;font-weight: bold;">Yesterday is history, tommorow is a mystery, and today is a gift. That is why it is called present.</span></i></div>
+            <div id="quote">Quote of the day: <i><span style="color:blue;font-weight: bold;">Yesterday is history, tommorow is a mystery, and today is a gift. That is why it is called present.</span></i></div>
         </section>
         <section>
-            <h2>April 8th, 2021</h2>
+            <h2>April 8th, 2021 - <em>Goals</em></h2>
             <h3>What I did,</h3>
             <p>
                 Same as yesterday, I woke up at the same time. However, I <em>tried</em> to wake up early, but I guess it didn't work out. Today I felt that I am a step closer to <strong>achieve my goal as a CS Major!</strong> 
-            </p>
-        </section>
-
-        <section>
+            
             <h3>My Goals:</h3>
             <ol>
                 <li>Gradute on time</li>
                 <li>Get good grades</li>
                 <li>Explore and find new experience as a programmer</li>
             </ol>
-            <div>However sometimes I feel that this isn't the right major for me, but I don't know why.</div>
+            However sometimes I feel that this isn't the right major for me, but I don't know why.
+            <div id="quote">Quote of the day: <i><span style="color:blue;font-weight: bold;">Just keep swimming, swimming, swimming.</span></i></div>
+            
         </section>
 
-        <div>Quote of the day: <i><span style="color:blue;font-weight: bold;">Just keep swimming, swimming, swimming.</span></i></div>
+        
 
         <section>
             <h2>April 9th, 2021 - <em>Break</em></h2>
-            I took a break today. I marathoned <i>Vincenzo</i> on Netflix. I scrolled my <a href="https://www.instagram.com/jcpriyanto/">Instagram</a> for quite a bit.<br>I also played video games with my friends.
-            <br>However, I suddenly got an idea--but I won't tell why--and then this sound will pop in my head!
+            <h3>What I did,</h3>
+            <p>I took a break today. I marathoned <i>Vincenzo</i> on Netflix. I scrolled my <a href="https://www.instagram.com/jcpriyanto/" target="_link">Instagram</a> for quite a bit.<br>I also played video games with my friends.
+            <br>However, I suddenly got an idea--but I won't tell why--and then this sound will pop in my head!</p>
             <div>
                 <audio controls>
                     <source src="./misc/ideasfx.mp3" type="audio/mp3">
                 </audio>
             </div>
-            <div>I just found a video where my QOTD from two days ago came from!</div>
+            <p>I just found a video where my QOTD from two days ago came from!<p>
             <video width="320" height="420" controls>
                 <source src="./misc/video.mp4" type="video/mp4">
             </video>
@@ -72,8 +80,13 @@
             </nav>
         </section>
         
+        Few of my favorite moments!<br>
+        <div class="grid-container">
+            <div class="grid-item"><img src="./misc/h1.jpeg" alt="Profile picture" width="250" height="250"></div>
+            <div class="grid-item"><img src="./misc/h2.jpeg" alt="Profile picture" width="250" height="250"></div>
+            <div class="grid-item"><img src="./misc/h3.jpeg" alt="Profile picture" width="250" height="250"></div>
+        </div>
 
-                    
     </main>
 
     <form method="get">
@@ -113,7 +126,7 @@
         </select>
 
         <br><br>
-        <div>I have: </div>
+        I have <br>
         <input type="checkbox" id="opt1" name="opt1" value="complete">
         <label for="opt1"> Completed all assignments for today!</label><br>
         <input type="checkbox" id="opt2" name="opt2" value="some">

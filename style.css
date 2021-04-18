@@ -1,0 +1,160 @@
+body {
+    background-color:royalblue ;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+a:active{
+    background-color: yellow;
+}
+header {
+    position: relative;
+    background-color: #add8e6;
+    margin:auto;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 10px;
+    text-align: center;
+    text-decoration:  underline;
+}
+
+.grid-container {
+    display: grid; 
+    gap: 10px; /*grid property*/
+    grid-template-columns: auto auto auto; /*grid property*/
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+.grid-item {
+    place-self: center; /*grid property*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div::first-line{
+    color: red;
+}
+
+h3 + p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#quote {
+    background-color: white;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*link color*/
+a[target=_link]{
+    color: red;
+}
+
+h1.header{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    color: navy;
+    margin-left: 20px;
+}
+
+/* changes the color of the section title of each journal entry (What I did, My Goals, etc)*/
+h2 ~ h3 {
+    color: #000000;
+}
+
+/* changes the color of the font in What I did... section*/
+h3 + p {
+    color: blue;
+    background-color: lightblue;
+}
+
+/* This will change the style of the headers in each journal */
+section > h2, h3 {
+
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    background-color: rgb(164, 255, 255);
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+h4 {
+    font-size: 5ch;
+}
+
+img:hover{
+    height: 400px;
+    width: 400px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: blue;
+}
+main {
+    
+    justify-content: space-evenly; /* flex property */
+    display: flex;
+    align-items: center; /* flex property */
+    flex-direction: column; /* flex property */
+    padding: 20px 20px 20px 20px;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+section{
+    align-items: center; /* flex property */
+    position: static; 
+    max-height: 1000px;
+    max-width: 100%;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 20px;
+    margin: 2rem 1rem 2rem 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 0.5em;
+    text-decoration: blue;
+}
+
+div{
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 3ex;
+}
+
+/* This will change the background color of each journal */
+main section{
+    background-color: rgb(13, 217, 253);
+}
+
+/* Changes the style of the entries in the journal */
+p {
+    
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Changes the style of any media within the journal */
+section > img, video, audio{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    display: none;
+}
