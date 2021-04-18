@@ -87,56 +87,55 @@
             <div class="grid-item"><img src="./misc/h3.jpeg" alt="Profile picture" width="250" height="250"></div>
         </div>
 
-    </main>
-
-    <form method="get">
-        <fieldset>
-            <legend>Journal Entry: </legend>
-            <label for="date">Enter date:</label>
-            <input type="date" id="date" name="date"><br><br>
-            <label>Describe how the day went: </label><br>
-            <input type="radio" id="good" name="good" value="good">
-            <label for="good">Good!</label><br>
-            <input type="radio" id="bad" name="bad" value="bad">
-            <label for="bad">Bad :(</label><br>
-            <input type="radio" id="neutral" name="neutral" value="netural">
-            <label for="neutral">Neutral.</label><br><br>
-            <label for="date">What happened?</label><br>
-            <textarea rows="4" cols="100"></textarea><br>
+        <br>
+        <form method="get">
+            <fieldset>
+                <legend>Journal Entry: </legend>
+                <label for="date">Enter date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label>Describe how the day went: </label><br>
+                <input type="radio" id="good" name="good" value="good">
+                <label for="good">Good!</label><br>
+                <input type="radio" id="bad" name="bad" value="bad">
+                <label for="bad">Bad :(</label><br>
+                <input type="radio" id="neutral" name="neutral" value="netural">
+                <label for="neutral">Neutral.</label><br><br>
+                <label for="date">What happened?</label><br>
+                <textarea rows="4" cols="100"></textarea><br>
+                
+            <label>I think that tommorow will be</label>
+            <input list="options" name="options" id="option">
+            <datalist id="options">
+              <option value="better!">
+              <option value="worse...">
+            </datalist>
+            <br><br>
+            <label for="quote">Enter QOTD (if there is one): </label>
+            <input type="text" id="quote" name="quote">
             
-        <label>I think that tommorow will be</label>
-        <input list="options" name="options" id="option">
-        <datalist id="options">
-          <option value="better!">
-          <option value="worse...">
-        </datalist>
-        <br><br>
-        <label for="quote">Enter QOTD (if there is one): </label>
-        <input type="text" id="quote" name="quote">
-        
-        <br><br>
-        <label for="cars">Rate the day out of 5</label>
-        <select name="cars" id="cars">
-          <option value="volvo">0</option>
-          <option value="saab">1</option>
-          <option value="opel">2</option>
-          <option value="audi">3</option>
-          <option value="audi">4</option>
-          <option value="audi">5</option>
-        </select>
-
-        <br><br>
-        I have <br>
-        <input type="checkbox" id="opt1" name="opt1" value="complete">
-        <label for="opt1"> Completed all assignments for today!</label><br>
-        <input type="checkbox" id="opt2" name="opt2" value="some">
-         <label for="opt2"> There are still other things to do!</label><br>
-        <input type="checkbox" id="opt3" name="opt3" value="none">
-        <label for="opt3"> Nothing to be done so far!</label><br><br>
-        <button type="button" onclick="alert('Journal submitted!')">Submit entry</button>
-        </fieldset>
-    </form>
-
+            <br><br>
+            <label for="cars">Rate the day out of 5</label>
+            <select name="cars" id="cars">
+              <option value="volvo">0</option>
+              <option value="saab">1</option>
+              <option value="opel">2</option>
+              <option value="audi">3</option>
+              <option value="audi">4</option>
+              <option value="audi">5</option>
+            </select>
+    
+            <br><br><br>
+            I have <br>
+            <input type="checkbox" id="opt1" name="opt1" value="complete">
+            <label for="opt1"> Completed all assignments for today!</label><br>
+            <input type="checkbox" id="opt2" name="opt2" value="some">
+             <label for="opt2"> There are still other things to do!</label><br>
+            <input type="checkbox" id="opt3" name="opt3" value="none">
+            <label for="opt3"> Nothing to be done so far!</label><br><br>
+            <button type="button" onclick="alert('Journal submitted!')">Submit entry</button>
+            </fieldset>
+        </form>
+    </main>
     <footer>
         <hr>
         <h4>This marks the end of my journal :)</h4>
