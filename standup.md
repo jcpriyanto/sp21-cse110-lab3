@@ -1,17 +1,13 @@
 # Standup Meeting Notes 
 
-## Are there any old unresolved business from the previous meeting?
+## What did I work on yesterday? Are there any issues or confusions?
 
-Things that were previously discussed, but not yet completed nor executed.
+What tasks were you working on yesterday and are there any questions regarding the task?
 
-## Are there any new business to be discussed?
+## What will I be working on today? 
 
-What are the things that we need to do in the future.
+What are the things that you want to work on today.
 
-## What are the decisions made during the meeting?
+## Are there any obstacles that you encountered?
 
-Decisions could mean what tasks that are available and who is in charge. Maybe it could be design of the logo for the team brand, etc.
-
-## What are the things that we need to improve?
-
-Things to improve could be team effort, communication, time management, etc.
+Obstacles could mean bugs, errors, etc.
