@@ -21,12 +21,28 @@ header {
     text-decoration:  underline;
 }
 
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+
+.list-item{
+    align-self: auto;
+    flex-shrink: 3;
+    flex-basis: 0;
+}
+
 .grid-container {
     display: grid; 
-    gap: 10px; /*grid property*/
+    row-gap: 10px; /*grid property*/
+    column-gap: 20px; /*grid property*/
     grid-template-columns: auto auto auto; /*grid property*/
     background-color: #2196F3;
     padding: 20px;
+    align-content: center;
   }
   
 .grid-item {
